@@ -100,21 +100,6 @@ ul {
     background-color: #404BBF;
     color: #ffffff;
 }
-.hero-btn-active {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background: #F4F4FD;
-    cursor: pointer;
-}
-.hero-btn-active:hover,
-.hero-btn-active:focus {
-    background-color: var(--btn-color);
-    color: var(--main-text-color);
-}
 .hero-img {
 }
 .hero-subtitle {
@@ -197,9 +182,9 @@ ul {
 }
 .team-item-text {
     font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*-------------footer---------------*/
 .footer {
@@ -223,6 +208,26 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+/*-------------Tabs---------------*/
+.tabs-li {
+
+}
+.tabs-btn {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.tabs-btn:hover,
+.tabs-btn:focus {
+    color: var(--main-text-color);
+    background-color: var(--btn-color);
 }
 
 
