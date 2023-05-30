@@ -24,7 +24,7 @@ ul {
 .header-navigation {
 }
 .header-logo {
-    font-family: 'Raleway';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -188,7 +188,7 @@ color: #434455;
     background-color: #2E2F42;
 }
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
