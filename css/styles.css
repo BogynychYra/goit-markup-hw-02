@@ -50,7 +50,10 @@ ul {
 .header-menu-li:hover,
 .header-menu-li:focus {
     color: #404BBF;
-}    
+}
+.header-address {
+    font-style: normal
+}
 .header-soc {
 }
 
