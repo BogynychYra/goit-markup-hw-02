@@ -1,5 +1,5 @@
 :root {
-    --primary-font: 'Raleway';
+    --primary-font: 'Raleway' sans-serif;
     --title-color: #434455;
     --main-text-color: #FFFFFF;
 }
