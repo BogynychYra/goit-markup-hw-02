@@ -1,6 +1,6 @@
 :root {
     --primary-font: 'Raleway' sans-serif;
-    --title-color: #434455;
+    --btn-color: #404BBF;
     --main-text-color: #FFFFFF;
 }
 
@@ -92,13 +92,27 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
     color: #ffffff;
+}
+.hero-btn-active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+.hero-btn-active:hover,
+.hero-btn-active:focus {
+    background-color: var(--btn-color);
+    color: var(--main-text-color);
 }
 .hero-img {
 }
